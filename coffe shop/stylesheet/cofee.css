@@ -1,0 +1,1309 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* ...... nav section ....... */
+
+.navhead{
+    font-size: 16px ;
+    color:#c1bcbc ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navcontainer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    align-items: center;
+    border-bottom: 1px solid #c1bcbc ;
+    background-color: rgba(5, 5, 5, 0.932);
+}
+.navorderlist{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    align-items: center;
+}
+.navbtn{
+    padding: 12px 15px;
+    border-radius: 20px;
+    border: 1px solid #B5B5B5;
+    font-size:20 ;
+    
+}
+.navdiv{
+    margin-left: 25px;
+}
+.navdiv1{
+    margin-right: 25px;
+}
+/* .................. 1 st nav end ........... */
+
+
+/* ....................... 2nd nav ........................ */
+
+.navcontainer1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(5, 5, 5, 0.932);
+   
+
+    
+  
+}
+.nav1orderlist1{
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+   padding: 25px;
+   color: #B5B5B5;
+   margin-left: 20px;
+   
+    
+
+   
+}
+.navselect1{
+    width: 70px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(29, 28, 28);
+    color: #B5B5B5;
+    
+}
+.navselect2{
+    width: 70px;
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    background-color: rgb(29, 28, 28);
+    color: #B5B5B5;
+    
+}
+.nav1orderlist2{
+    display: flex;
+    column-gap: 25px;
+    font-size: 16px;
+    padding: 25px;
+    color: #B5B5B5;
+    list-style: none;
+    margin-right: 20px;
+    
+
+}
+/* ..................... banner section .............. */
+.bannersection{
+    background-color: black;
+    
+}
+/* ....................... banner section end.............. */
+
+
+/* .....................fav section.............. */
+
+.favhead{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+
+}
+.favorcontainer{
+    width: 100%;
+    margin: auto;
+    border: 1 px solid red;
+    padding-top: 50px;
+    background-color: rgba(5, 5, 5, 0.932);
+    padding-bottom: 150px;
+}
+.favorrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.favorcol{
+    width: 21%;
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 25px ;
+}
+.favorcol:hover{
+    border: 2px solid #Bd9675;
+}
+.fav{
+    margin-top: 10px;
+}
+.favheadtwo{
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    
+}
+.favimg{
+    margin-top: 50px;
+}
+.favpara{
+    color: white;
+    margin-top: 50px;
+ }
+
+/* ............................. history coffeee ,.................... */ 
+.histimg1{
+    display: block;
+}
+.histcontainer{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    padding-bottom: 180px;
+    border-bottom: 2px dotted #Bd9675;
+}
+.histrow{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 60px;
+    justify-content: center;
+
+}
+.histcol{
+    column-gap: 20px;
+}
+.histimgthree{
+    display: block;
+    margin-top: 60px;
+}
+.histimg2{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.histheadone{
+    font-size: 50px;
+    margin-top: 150px;
+    color: white;
+}
+.histparaone{
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+.historder{
+    font-size: 20px;
+    list-style: none;
+    margin-top: 40px;
+    color: white;
+}
+.histimgfour{
+    margin-top: 100px;
+}
+/* ................. history end .................... */
+
+/* ........................... logo ....................... */
+
+.logocontainer{
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+     background-color: black;
+     padding-bottom: 110px;
+}
+.logorow{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.logoimgone{
+    filter: grayscale(0%);
+}
+.logoimgone:hover{
+    filter: grayscale(100%);
+}
+/* .......................... fav2...................... */
+.fav2headone{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.fav2paraone{
+    text-align: center;
+    margin-top: 30px;
+    color: #B5B5B5;
+}
+.fav2alldiv{
+    width: 40%;
+    border: 2px dotted #Bd9675;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+}
+
+.fav2container{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+    background-color: rgb(29, 28, 28);
+}
+.fav2col{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    justify-content: space-around;
+    border-bottom:  2px dashed gray;
+    margin: auto;
+    margin-top: 30px;
+}
+.fav2col:hover{
+    border-bottom: 2px dashed #Bd9675;
+}
+.fav2img{
+    border-radius: 20px;
+}
+.favimgcont{
+    display: flex;
+    column-gap: 20px;
+}
+.fav2parathree{
+    margin-top: 30px;
+}
+.fav2span{
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: #B5B5B5;
+}
+.fav2span2{
+    color: white;
+}
+.fav2headtwo{
+    color: #Bd9675;
+}
+.fav2headthree{
+    color: white;
+}
+.fav2paratwo{
+    color: #B5B5B5;
+}
+.fav2parathree{
+    color: #B5B5B5;
+}
+.fav2headfour{
+    color: #Bd9675;
+}
+
+/* ..................... chef .......................... */
+
+.chefcontainer{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(29, 28, 28);
+}
+.chefrow{
+  display: flex;
+  margin: auto;
+  width: 90%;
+ 
+}
+.chefcol{
+    width: 23.3%;
+    margin: auto;
+    margin-top: 140px;
+}
+.chefparaone{
+    
+    text-align: center;
+   padding-top: 80px;
+   color: white;
+   
+    
+}
+/* .................. client........................ */
+
+.clientcontainer{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 70px;
+    background-image: url(../image/back\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.clientrow{
+   width: 60%;
+   margin: auto;
+  
+  
+}
+.clientcol{
+    text-align: center;
+    
+}
+.avatar{
+    display: flex;
+    width: 35%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    column-gap: 5px;
+}
+.clientheadone{
+    margin-top: 140px;
+    color: white;
+}
+.clientheadonediv{
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px dashed #Bd9675;
+    padding-bottom: 20px;
+    
+}
+.clientheadtwodiv{
+    margin-top: 55px;
+}
+.clientheadtwo{
+    color: #B5B5B5;
+}
+.cleintheadthree{
+    color: white;
+}
+.cleintparaone{
+    color: #Bd9675;
+}
+
+/* ............................. pocket container......................... */
+.pocketcontainer{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background-color:rgb(29, 28, 28) ;
+    padding-bottom: 100px;
+    
+    
+}
+.pocketrow{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+   
+}
+.pocketcol{
+    width: 45%;
+    
+}
+.packback{
+    background-image: url(../image/back\ image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   text-align: center;
+   border: 2px solid #B5B5B5;
+
+}
+.pockimg{
+    margin-top: 20px;
+    position: relative;
+    bottom:  60px;
+   
+   
+}
+.pocketcol{
+    text-align: center;
+}
+.pockheadone{
+    /* color: white; */
+    margin-top: 60px;
+    color: white;
+}
+.pockanone{
+    margin-top: 30px;
+}
+.divanpock{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+    
+}
+.pockanone{
+    color: #Bd9675;
+    text-decoration: none;
+}
+.pockparaone{
+    margin-top: 60px;
+    color: whitesmoke;
+
+
+}
+
+
+/* ......................... pocket contain 2.............................. */
+
+.pocketcontainer1{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background-color:rgb(29, 28, 28) ;
+    margin-top: 785px;
+    padding-bottom: 50px;
+    
+    
+    
+}
+.pocketrow1{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+   
+}
+.pocketcol1{
+    width: 45%;
+    
+}
+.packback1{
+    background-image: url(../image/back\ image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   text-align: center;
+   border: 2px solid #B5B5B5;
+
+}
+.pockimg1{
+    margin-top: 20px;
+    position: relative;
+    bottom:  60px;
+   
+   
+}
+.pocketcol1{
+    text-align: center;
+}
+.pockheadone1{
+    /* color: white; */
+    margin-top: 60px;
+    color: white;
+}
+.pockanone1{
+    margin-top: 30px;
+}
+.divanpock1{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+    
+}
+.pockanone1{
+    color: #Bd9675;
+    text-decoration: none;
+}
+.pockparaone1{
+    margin-top: 60px;
+    color: whitesmoke;
+
+
+}
+
+/* ............................ blogs .......................... */
+.blogsheadone{
+/* color: white; */
+text-align: center;
+margin-top: 20px;
+}
+
+.blogscontainer{
+    margin-top: 1520px;
+    width: 100%;
+    background-color:rgb(29, 28, 28) ;
+    padding-bottom: 150px;
+    
+}
+.blogsinnerdiv{
+    display: flex;
+    margin: auto;
+    column-gap: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.blogscol{
+    width: 28.2%;
+    
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: rgba(15, 15, 15, 0.849);
+}
+.blogsinnerdiv2{
+    display: flex;
+    margin: auto;
+ justify-content: space-around;
+ margin-top: 25px;
+ border-top: 2px dashed #Bd9675;
+ padding: 25px;
+ align-items: center;
+
+}
+.blogsheadtwo{
+    margin-top: 15px;
+}
+.blogsparatwo{
+    color: #Bd9675;
+}
+.blogsbtn1{
+    background-color: #Bd9675;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+.blogsparaone{
+    text-align: center;
+}
+.blogsheadtwo{
+    color: white;
+}
+.blogaparathree{
+    color: white;
+}
+.blogsrow{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.blogsheadone{
+    color: white;
+    padding-top: 30px;
+    
+}
+.blogsparaone{
+    color: #B5B5B5;
+    margin-top: 20px;
+}
+/* ........................... footer................... */
+.footerinnerdiv{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footercol{
+    width: 30%;
+    margin-top: 80px;
+   
+}
+.footercontainer{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 80px;
+    background-color: black;
+}
+.footerrow{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    /* margin-top: 100px; */
+}
+.social{
+    text-align: center;
+}
+.footerheadone{
+    margin-top: 34px;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.footerheadtwo{
+    color: #c1bcbc;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footeraddress{
+    color: #c1bcbc;
+    font-size: 18px;
+}
+.footerorderlist{
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c1bcbc;
+        
+}
+/* ................... footer2............................... */
+.footer2container{
+    width: 100%;
+    margin: auto;
+    background-color:rgb(29, 28, 28) ;
+    
+}
+.footerrow{
+    width: 90%;
+}
+.footer2col{
+    width: 100%;
+    display: flex;
+    column-gap: 75px;
+    text-align: center;
+    
+    
+}
+.logofoot{
+    margin-left: 100px;
+    margin-top: 300px;
+    
+}
+.footer2innerdiv{
+    margin-top: 80px;
+}
+.foot2paraone{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: cursive;
+    color: #c1bcbc;
+}
+.foot2input{
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.footer2span{
+    color: #Bd9675;
+}
+.footer2paraone{
+    color: #c1bcbc;
+    margin-top: 50px;
+}
+@media screen and (min-width:320px) {
+    .navcontainer{
+        display: none;
+    }
+    .navcontainer1{
+        display: none;
+    }
+    .favorcontainer{
+        width: 100%;
+        margin: auto;
+        border: 1 px solid red;
+        padding-top: 50px;
+        background-color: rgba(5, 5, 5, 0.932);
+        padding-bottom: 150px;
+    }
+    .favorrow{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .favorcol{
+        width: 80%;
+        border: 2px solid gray;
+        padding: 20px;
+        margin-top: 80px;
+        border-radius: 25px ;
+    }
+    .histcontainer{
+        width: 100%;
+        margin: auto;
+        background-color: black;
+        padding-bottom: 180px;
+        border-bottom: 2px dotted #Bd9675;
+    }
+    .histrow{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: 60px;
+        justify-content: center;
+    
+    }
+    .histcol{
+        column-gap: 20px;
+    }
+    .histimgfour{
+        width:300px;
+        height: 300px;
+    }
+    .logocontainer{
+        width: 100%;
+        margin: auto;
+        padding-top: 70px;
+         background-color: black;
+         padding-bottom: 110px;
+    }
+    .logorow{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        row-gap: 70px;
+    }
+    .logocol{
+        
+        width: 51%;
+    }
+    .fav2container{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+        background-color: rgb(29, 28, 28);
+    }
+    
+    .favimgcont{
+        flex-wrap: wrap;
+    }
+    .chefcontainer{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(29, 28, 28);
+    }
+    .chefrow{
+      flex-wrap: wrap;
+      margin: auto;
+      width: 90%;
+     
+    }
+    .chefcol{
+        width: 60%;
+        margin: auto;
+        margin-top: 140px;
+    }
+    .clachefimg1{
+        width: 200px;
+    }
+    .avatar{
+        flex-wrap: wrap;
+    }
+    .pocketcontainer1{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        margin-top: 785px;
+        padding-bottom: 160px;
+        
+        
+        
+    }
+    .pocketrow1{
+        
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 150px;
+       
+    }
+    .pocketcol1{
+        width: 60%;
+        
+    }
+    .pocketcontainer{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        /* margin-top: 500px; */
+        padding-bottom: 100px;
+        
+        
+        
+    }
+    .pocketrow{
+        
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 150px;
+       
+    }
+    .pocketcol{
+        width: 60%;
+        
+    }
+     .pockimg{
+        width: 200px;
+        height: 200px;
+     }
+     .pockimg1{
+        width: 200px;
+        height: 200px;
+       
+     }
+    
+    .footer2container{
+        width: 100%;
+        margin: auto;
+        background-color:rgb(29, 28, 28) ;
+        
+    }
+    .footerrow{
+        width: 90%;
+    }
+    .footer2col{
+        width: 100%;
+        flex-wrap: wrap;
+        column-gap: 75px;
+        text-align: center;
+        
+        
+    }
+    .footer2innerdiv{
+        width: 100%;
+    }
+    .foot2input{
+        width: 70%;
+    }
+    .footerinnerdiv{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+    .footercol{
+        width: 60%;
+        margin-top: 80px;
+       
+    }
+    .footercontainer{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 80px;
+        background-color: black;
+    }
+    .footerrow{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+        /* margin-top: 100px; */
+    }
+    .blogscontainer{
+        margin-top: 1700px;
+        width: 100%;
+        background-color:rgb(29, 28, 28) ;
+        padding-bottom: 150px;
+        
+    }
+    .blogsinnerdiv{
+        flex-wrap: wrap;
+        margin: auto;
+        column-gap: 50px;
+        margin-left: 60px;
+        margin-top: 20px;
+        
+    }
+    .blogscol{
+        width: 60%;
+        
+        text-align: center;
+        padding-bottom: 25px;
+        background-color: rgba(15, 15, 15, 0.849);
+    }
+    .blogsrow{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+        margin-top: 90px;
+    }
+    .blogsimg1{
+        width: 180px;
+    }
+
+}
+@media screen and (min-width:680px) {
+    .navcontainer{
+        display: block;
+        display: flex;
+    }
+    .navcontainer1{
+        display: block;
+        display: flex;
+    }
+    .favorcontainer{
+        width: 100%;
+        margin: auto;
+        border: 1 px solid red;
+        padding-top: 50px;
+        background-color: rgba(5, 5, 5, 0.932);
+        padding-bottom: 150px;
+    }
+    .favorrow{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .favorcol{
+        width: 40%;
+        border: 2px solid gray;
+        padding: 20px;
+        margin-top: 80px;
+        border-radius: 25px ;
+    }
+    .logocontainer{
+        width: 100%;
+        margin: auto;
+        padding-top: 70px;
+         background-color: black;
+         padding-bottom: 110px;
+    }
+    .logorow{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .logocol{
+        width: 40%;
+    }
+    .chefcontainer{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(29, 28, 28);
+    }
+    .chefrow{
+      flex-wrap: wrap;
+      margin: auto;
+      width: 90%;
+     
+    }
+    .chefcol{
+        width: 40%;
+        margin: auto;
+        margin-top: 140px;
+    }
+    .clachefimg1{
+        width: 200px;
+    }
+    .avatar{
+        display: flex;
+        width: 40%;
+    }
+    .pocketcontainer1{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        margin-top: 785px;
+        padding-bottom: 160px;
+        
+        
+        
+    }
+    .pocketrow1{
+        
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 150px;
+       
+    }
+    .pocketcol1{
+        width: 60%;
+        margin-top: 50px;
+        
+    }
+    .pocketcontainer{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        /* margin-top: 500px; */
+        padding-bottom: 100px;
+        
+        
+        
+    }
+    .pocketrow{
+        
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 150px;
+       
+    }
+    .pocketcol{
+        width: 60%;
+        
+        
+    }
+     .pockimg{
+        width: 300px;
+        height: 300px;
+     }
+     .pockimg1{
+        width: 300px;
+        height: 300px;
+       
+     }
+     .blogscontainer{
+        margin-top: 1700px;
+        width: 100%;
+        background-color:rgb(29, 28, 28) ;
+        padding-bottom: 150px;
+        
+    }
+    .blogsinnerdiv{
+        flex-wrap: wrap;
+        margin: auto;
+        column-gap: 50px;
+        margin-left: 60px;
+        margin-top: 20px;
+        
+    }
+    .blogscol{
+        width: 40%;
+        
+        text-align: center;
+        padding-bottom: 25px;
+        background-color: rgba(15, 15, 15, 0.849);
+    }
+    .blogsrow{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+        margin-top: 90px;
+        row-gap: 30px;
+    }
+    .blogsimg1{
+        width: 180px;
+    }
+
+}
+@media screen and (min-width:1020px) {
+    .navcontainer{
+        display: block;
+        display: flex;
+    }
+    .navcontainer1{
+        display: block;
+        display: flex;
+    }
+    .favorcontainer{
+        width: 100%;
+        margin: auto;
+        border: 1 px solid red;
+        padding-top: 50px;
+        background-color: rgba(5, 5, 5, 0.932);
+        padding-bottom: 150px;
+    }
+    .favorrow{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .favorcol{
+        width: 21%;
+        border: 2px solid gray;
+        padding: 20px;
+        margin-top: 80px;
+        border-radius: 25px ;
+    }
+    .favimg{
+        width: 180px;
+
+    }
+    .logocontainer{
+        width: 100%;
+        margin: auto;
+        padding-top: 70px;
+         background-color: black;
+         padding-bottom: 110px;
+    }
+    .logorow{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+    .logocol{
+        width: 15%;
+    }
+    .chefcontainer{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(29, 28, 28);
+    }
+    .chefrow{
+      display: flex;
+      margin: auto;
+      width: 90%;
+     
+    }
+    .chefcol{
+        width: 23.3%;
+        margin: auto;
+        margin-top: 140px;
+    }
+    .pocketcontainer{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        padding-bottom: 150px;
+        
+        
+    }
+    .pocketrow{
+        
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 350px;
+       
+    }
+    .pocketcol{
+        width: 45%;
+        
+    }
+    .pocketcontainer1{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color:rgb(29, 28, 28) ;
+        margin-top: 785px;
+        padding-bottom: 400px;
+        
+        
+        
+    }
+    .pocketrow1{
+        
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 180px;
+       
+    }
+    .pocketcol1{
+        width: 45%;
+        
+    }
+    
+.blogscontainer{
+    margin-top: 1520px;
+    width: 100%;
+    background-color:rgb(29, 28, 28) ;
+    padding-bottom: 150px;
+    
+}
+.blogsinnerdiv{
+    display: flex;
+    margin: auto;
+    column-gap: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.blogscol{
+    width: 28.2%;
+    
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: rgba(15, 15, 15, 0.849);
+}
+.blogsinnerdiv2{
+    display: flex;
+    margin: auto;
+ justify-content: space-around;
+ margin-top: 25px;
+ border-top: 2px dashed #Bd9675;
+ padding: 25px;
+ align-items: center;
+
+}
+.footerinnerdiv{
+    display: flex;
+
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
+.footercol{
+    width: 30%;
+    margin-top: 80px;
+
+   
+}
+.footercontainer{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 80px;
+    background-color: black;
+}
+.footerrow{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    /* margin-top: 100px; */
+}
+.footer2container{
+    width: 100%;
+    margin: auto;
+}
+/* .footer2row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+} */
+.footer2col{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  
+    margin: auto;
+}
+.footer2innerdiv{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.vel{
+    width: 30%;
+}
+.blogsimg1{
+    width: 280px;
+    
+}
+.pockimg1{
+    width: 400px;
+}
+.pockimg{
+    width: 400px;
+}
+.clachefimg1{
+    width: 220px;
+}
+}
+
+    
+
+
+    
